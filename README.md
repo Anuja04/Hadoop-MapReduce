@@ -9,7 +9,7 @@ Blueste	137500.0
 Blueste	151000.0
 BrDale	83000.0
 
-2. Wrote a MapReduce program to calculate the total number of sent emails per email domain for a given person in the Enron data set.  The output of final solution must be separated into 2 different output directories (part-r-00000 and part-r-00001), where the first output directory contains email domains starting with the letters a-m and the second output directory contains email domains starting with the letters n-z.   
+2. Wrote a MapReduce program to calculate the total number of sent emails per email domain for a given person in the Enron data set.  The output of final solution must be separated into 2 different output directories (part-r-00000 and part-r-00001), where the first output directory contains email domains starting with the letters a-m and the second output directory contains email domains starting with the letters n-z.   The data is excerpted from the infamous Enron email corpus (https://en.wikipedia.org/wiki/Enron_Corpus).  
 
 Below is an example of output should look like, where the domain is the output key and the output value is the total number of emails sent to that domain.
 
